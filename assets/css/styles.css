@@ -305,3 +305,31 @@
 #links-container a:hover{
     color: #FFF;
 }
+
+/* Footer bottom */
+#footer-bottom{
+    border-top: solid 1px #7A7A7A;
+    padding-top: 2em;
+}
+
+#footer-bottom i{
+    color: #E61E10;
+    margin-left: 0.3em;
+}
+
+/* Responsive Desktop */
+@media(min-width: 768px){
+    #news-container{
+        padding-right: 2em;
+    }
+
+    #links-container{
+        padding-left: 2em;
+    }
+
+    #contact-container{
+        padding: 0 2em;
+        border-left: solid 1px #7A7A7A;
+        border-right: solid 1px #7A7A7A;
+    }
+}
